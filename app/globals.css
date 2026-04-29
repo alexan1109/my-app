@@ -24,3 +24,76 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.main_navbar {
+ display: flex;
+ flex-direction: row;
+ border: 1px solid grey;
+ height: 60px;
+
+}
+
+.main_navbar_list {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  color: rgb(172, 191, 212);
+  font-size: 21px;
+  font-weight:800;
+  align-self: center;
+  border-right: 7px solid grey;
+  text-align: center;
+  padding-top: 15px;
+  flex-grow: 1;
+}
+
+.main_navbar_list:active {
+  background-color: rgb(191, 208, 226);
+  color: black;
+}
+
+.main_navbar_list:hover {
+  background-color: rgb(135, 135, 135);
+ color: white;
+}
+
+.footer_items {
+ display: flex;
+ flex-direction: column;
+ border: 1px solid grey;
+ height: 170px;
+
+}
+.footer_navbar_list {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  color: rgb(172, 191, 212);
+  font-size: 21px;
+  font-weight:800;
+  border-right: 7px solid grey;
+  border-left: 7px solid grey;
+  text-align: left;
+  padding-top: 15px;
+  flex-grow: 2;
+  text-align: left;
+  padding-left: 40px;
+}
+
+.footer_navbar_list_item:active {
+  background-color: rgb(191, 208, 226);
+  color: black;
+}
+
+.footer_navbar_list_item:hover {
+  background-color: rgb(135, 135, 135);
+ color: white;
+}
+
+
+.map_styles{
+  background-color: black;
+  color: rgb(172, 191, 212);
+  border-right: 7px solid grey;
+  border-left: 7px solid grey;
+}
