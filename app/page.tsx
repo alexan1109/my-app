@@ -1,6 +1,6 @@
 'use client';
-import Image from "next/image";
 import GoogleMaps from "./components/GoogleMaps";
+import HomePage from "./components/HomePage/page";
 
 export default function Home() {
     console.log(process.env.NEXT_PUBLIC_MAPS_API_KEY);
@@ -16,6 +16,7 @@ export default function Home() {
               <li className="main_navbar_list"><button>Login</button></li>
           </ul>
         </nav>
+        <HomePage />
         <footer className="footer_items">
           <GoogleMaps />
             <ul className="footer_navbar_list">
